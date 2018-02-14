@@ -1,0 +1,129 @@
+html{
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+  opacity: 0.9;
+  text-align: center;
+}
+header{
+  display:flex;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  background-color: black;
+  z-index: 5;
+}
+
+header img{
+  padding-left: 10px;
+  margin: 0 50px;
+}
+
+nav{
+  display: flex;
+  width:100%;
+  align-self:flex-end;
+  justify-content: flex-end;
+  z-index: 5;
+}
+nav a{
+  color: white;
+  text-decoration:underline;
+  padding-left: 20px;
+  z-index: 5;
+}
+.Mid{
+  padding-top: 86px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  flex-wrap: wrap;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: auto;
+  flex-direction: column;
+}
+
+.mid{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.Mid h2{
+  height: 50px;
+  width: 1200px;
+  background-color: black;
+  margin:0;
+}
+.Mid h4{
+  margin:0;
+    height: 50px;
+    width: 1200px;
+  background-color: black;
+}
+
+.bot{
+  padding-top: 50px;
+}
+
+.Tea{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Tea img{
+  height: 200px;
+  width: 300px;
+  padding-top: 10px;
+  padding-left: 100px;
+}
+.TeaImages{
+  flex-direction: column;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.Bottom{
+  padding-top: 150px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 1200px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.text{
+  width: 300px;
+  opacity: 1;
+  padding: 15px 0 0 40px;
+  background-color: black;
+    display: flex;
+  flex-direction: column;
+
+}
+
+.top{
+  display: absolute;
+  justify-content: center;
+  align-items: center;
+}
+.end{
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+}
+.banner{
+  display: flex;
+  text-align: left;
+  justify-content: flex-start;
+}
